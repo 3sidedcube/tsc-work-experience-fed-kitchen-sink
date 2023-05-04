@@ -1,0 +1,16 @@
+{
+  "name": "tsc-work-experience-kitchen-sink",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "parcel index.html 'tasks/*/index.html'",
+    "format": "prettier -w ."
+  },
+  "devDependencies": {
+    "@3sidedcube/prettier-config": "^1.0.0",
+    "parcel": "^2.8.3",
+    "prettier": "^2.8.8"
+  },
+  "prettier": "@3sidedcube/prettier-config"
+}
