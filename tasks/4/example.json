@@ -1,0 +1,73 @@
+[
+  {
+    "id": "6440997fdb5118ce3e8c3a90",
+    "name": "Deforestation Survey",
+    "user": "64409984db658a7333a6ec3f",
+    "createdAt": "2022-04-18T12:30:00Z",
+    "questions": [
+      {
+        "id": "644099fd89163c0e067dd3b9",
+        "title": "What is the main cause of deforestation?",
+        "type": "select",
+        "options": [
+          {
+            "id": "644099fd89163c0e067dd3ba",
+            "display": "Agriculture",
+            "value": "agriculture"
+          },
+          {
+            "id": "644099fd89163c0e067dd3bb",
+            "display": "Logging",
+            "value": "logging"
+          },
+          {
+            "id": "644099fd89163c0e067dd3bc",
+            "display": "Mining",
+            "value": "mining"
+          },
+          {
+            "id": "644099fd89163c0e067dd3bd",
+            "display": "Urbanization",
+            "value": "urbanization"
+          }
+        ],
+        "required": true
+      },
+      {
+        "id": "644099fd89163c0e067dd3be",
+        "title": "How does deforestation affect the climate?",
+        "type": "radio",
+        "options": [
+          {
+            "id": "644099fd89163c0e067dd3bf",
+            "display": "Increases greenhouse gases",
+            "value": "greenhouse gases"
+          },
+          {
+            "id": "644099fd89163c0e067dd3c0",
+            "display": "Decreases oxygen production",
+            "value": "oxygen production"
+          },
+          {
+            "id": "644099fd89163c0e067dd3c1",
+            "display": "Changes weather patterns",
+            "value": "weather patterns"
+          }
+        ],
+        "required": true
+      },
+      {
+        "id": "644099fd89163c0e067dd3c2",
+        "title": "What are some ways to prevent deforestation?",
+        "type": "text",
+        "required": false
+      },
+      {
+        "id": "644099fd89163c0e067dd3c3",
+        "title": "What can individuals do to reduce deforestation?",
+        "type": "text",
+        "required": false
+      }
+    ]
+  }
+]
