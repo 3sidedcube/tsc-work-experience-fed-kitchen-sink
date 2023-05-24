@@ -52,8 +52,7 @@ const MapProvider = ({ children }) => {
       const response = await fetch(url, {
         method: "POST",
         headers: {
-          authorization:
-            "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyMzM0ZGFlODgwNDQ1MDAxYTQ2YzQ5NCIsInJvbGUiOiJVU0VSIiwicHJvdmlkZXIiOiJsb2NhbCIsImVtYWlsIjoib3dlbkAzc2lkZWRjdWJlLmNvbSIsImV4dHJhVXNlckRhdGEiOnsiYXBwcyI6W119LCJjcmVhdGVkQXQiOjE2ODAxOTMwMTUyODksIm5hbWUiOiJvd2VuIiwiaWF0IjoxNjgwMTkzMDE1fQ.H0A8kFRIMu5uAq4n51Xyz_1iqZ_4q-ZflWq5GL4Rwe4"
+          authorization: "Bearer"
         },
         body
       });
